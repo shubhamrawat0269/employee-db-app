@@ -1,0 +1,51 @@
+.employee__section {
+    width: 90vw;
+    height: 90vh;
+    margin: 2rem auto;
+}
+
+.header__section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__section button {
+    border: none;
+    cursor: pointer;
+    border-radius: 0.3rem;
+    padding: 0.5rem 1.5rem;
+}
+
+.employee__data {
+    display: flex;
+    gap: 2rem;
+    width: 100%;
+    height: 90%;
+    padding: 1rem 0;
+}
+
+.employee__list {
+    border: 1px solid;
+    width: 23%;
+}
+
+.employee__info {
+    border: 1px solid;
+    width: 77%;
+}
+
+.employee__labels {
+    max-height: 92%;
+    overflow-y: auto;
+}
+
+.employee__detail {
+    text-align: center;
+    padding: 2rem 0;
+}
+
+.profile__img {
+    width: 30%;
+    margin-bottom: 1rem;
+}

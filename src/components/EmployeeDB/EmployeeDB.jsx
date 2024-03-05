@@ -1,9 +1,10 @@
-import EmployeeData from "./EmployeeData/EmployeeData";
 import Header from "./Header/Header";
+import "./EmployeeDBStyle.css";
+import EmployeeData from "./EmployeeData/EmployeeData";
 
 const EmployeeDB = () => {
   return (
-    <div>
+    <div className="employee__section">
       <Header />
       <EmployeeData />
     </div>

@@ -4,3 +4,79 @@
     box-sizing: border-box;
 }
 
+html,
+body {
+    font-family: "Madimi One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+h3 {
+    text-align: center;
+    padding: 0.5rem;
+    border-bottom: 1px solid silver;
+}
+
+h2 {
+    text-align: center;
+}
+
+li {
+    list-style: none;
+    padding: 0.35rem 0.85rem;
+    border-bottom: 1px solid lightgray;
+    cursor: pointer;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+img {
+    width: 1rem;
+}
+
+.form__ctrl {
+    position: absolute;
+    top: 0;
+
+    background-color: silver;
+    width: 100vw;
+    height: 100vh;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.form__ctrl form {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    padding: 1rem;
+    border-radius: 0.25rem;
+    width: 25rem;
+    height: 15rem;
+}
+
+.form__ctrl label {
+    margin-bottom: 0.5rem;
+}
+
+input {
+    width: 100%;
+    padding: 0.2rem;
+}
+
+.btn {
+    padding: 0.5rem;
+    cursor: pointer;
+    border: none;
+}
+
+.cross__icon {
+    position: relative;
+    top: -16%;
+    left: -0.75%;
+    cursor: pointer;
+}
